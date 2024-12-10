@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="College student traveling platform">
+    <meta name="keywords" content="travel, flight, hotel, experience, culture">
+    <meta name="author" content="Kelly Yi Yan Leung">
+    <title>College Travelers</title>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/8e65ad7203.js" crossorigin="anonymous"></script>
+    <!-- Fugaz One, Noto Sans (Hong Kong), Noto Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Noto+Sans+HK:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexstyle.css">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    </head>
+
+
+    <body>
+    <!--Header: logo, post, search bar, noti, msg, profile (login popup)-->
+    <header>
+        <button class="menu">&#9776;</button>
+        <button class="search2"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
+        <h1>College Travelers</h1>
+        <h2><a href="#">Post</a></h2>
+        <div class="search_container">
+        <form id="form" role="search">
+            <input class="search" type="search" placeholder="Where are you going today?" aria-label="Search through site content" id="searchInput">
+            <button class="button" onclick="document.getElementById('searchInput').value = ''"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
+        </form>
+        </div>
+    <nav>
+       <ul>
+        <li><a href="#"><i class="fa-solid fa-bell fa-2x"></i></a></li>
+        <li><a href="presentation.html"><i class="fa-solid fa-comment-dots fa-2x"></i></a></li>
+        <li><button class="profile" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><img src="images/icon1.jpeg" alt="profile icon"></button>
+            <div id="id01" class="login">
+                <form class="login-content animate" method="post">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <div class="container">
+                    <label for="uname"><b>Email</b></label>
+                    <input type="text" placeholder="Email" name="uname" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Password" name="psw" required>
+                    <button type="submit">Sign Up/ Login</button>
+                    </div>
+                    <div class="container">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw"><a href="#">Forgot password?</a></span>
+                    </div>
+                </form></li>
+       </ul>
+    </nav>
+    </header>
+
+    <main>
+    <!--So funny how I remember where and when exactly I took all these photos without any reference, the captions and alt are all real stuff that tells my story! And I truly recommend visiting these places!  I think as a platform that may go global it will attract users from different places, that's why I added in captions of languages I can write, in Chinese (written Cantonese) and Korean and tried to write the caption in different styles so it (perhaps) mimic how a social platform may look like-->
+    <div class="row">
+        <!-- Column 1 -->
+        <div class="column">
+            <a href="#"><img src="images/stanley_park.JPG" alt="Stanley Park, Vancouver, 2023. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">🇨🇦 Gorgeous tree at Stanley Park</a>
+            <a href="#"><img src="images/formosa_blvd.JPG" alt="Formosa Boulevard Station, Kaohsiung, Taiwan, 2023. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">Prettiest metro station on Earth</a>
+            <a href="#"><img src="images/central_park.JPG" alt="Central Park, New York, 2024. iPhone 13 Pro"></a>
+            <a href="#">Night walk in Central Park</a>
+            <a href="#"><img src="images/filmhk.JPG" alt="D2 Place, Hong Kong, 2021. Caption translated: 'Old Hong Kong feel looks good'. Pentax Espio 120SW, Fujifilm X-TRA 400."></a>
+            <a href="#">옛날 홍콩 느낌 이쁘네</a>
+            <a href="#"><img src="images/penghu2.JPG" alt="Indian blanket, county flower of Penghu, Taiwan, 2023. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">What's this flower??</a>
+            <a href="#"><img src="images/teamlab.JPG" alt="teamLab SuperNature Macao, September 2023. iPhone 12 Pro"></a>
+            <a href="#">The light is making me dizzy in this exhibition😵‍💫</a>
+            <a href="#"><img src="images/crab.jpg" alt="Gaomei Wetland, Taichung, Taiwan, March 23, 2024. Google Pixel 7"></a>
+            <a href="#">Crab said hi to us 🙋🏻‍♀️🦀</a>
+            <a href="#"><img src="images/eva.jpg" alt="Taoyuan International Airport, Taiwan, 2023. Asahi Pentax Spotmatic SPII, Escura Showa ISO 400 Color 30exp Negative Film."></a>
+            <a href="#">Mileage run for star alliance gold membership</a>
+            <a href="#"><img src="images/usj.JPG" alt="Universal Studios Japan, 2017. iPhone 7 Plus"></a>
+            <a href="#"><i>MINIONS ASSEMBLE!</i> @USJ Osaka</a>
+            <a href="#"><img src="images/TRA.jpeg" alt="Taiwan Railway, Hsinchu, , August 2024. iPhone 15"></a>
+            <a href="#">Where is this? Japan or Taiwan?</a>
+            <a href="#"><img src="images/mong_tung_wan.jpeg" alt="Mong Tung Wan, Hong Kong, 2023. Caption translated: '[Mong Tung Wan]A secret bay that 99% HK people never heard of'. iPhone 13 Pro"></a>
+            <a href="#">【望東灣】99%香港人沒聽過的隱世海灣</a>
+        </div>
+        <!-- Column 2 -->
+        <div class="column">
+            <a href="#"><img src="images/starlux.JPG" alt="Starlux Airlines aircraft, Hong Kong International Airport, July 2024. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">What are you looking at? This is an airplane</a>
+            <a href="#"><img src="images/victoriahbr2.JPG" alt="Hung Hom Promenade, Hong Kong, 2021. Pentax Espio 120SW, Fujifilm X-TRA 400."></a>
+            <a href="#">This is why I love Hong Kong so much</a>
+            <a href="#"><img src="images/mos.jpg" alt="Starfish Bay, Ma On Shan, Hong Kong, 2020. Superheadz Usagi Colorful, Fujifilm C200."></a>
+            <a href="#">Winter picnic on a beach</a>
+            <a href="#"><img src="images/vegas.JPG" alt="Las Vegas, 2023. Caption translated: 'Fking horrible here!!!!'. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">여기 ㅈㄴ 무서워!!!!</a>
+            <a href="#"><img src="images/cat1.jpeg" alt="Cat at Mong Tung Wan, Hong Kong, 2023. iPhone 13 Pro"></a>
+            <a href="#">Hiking trips always end with a cat in Hong Kong</a>
+            <a href="#"><img src="images/home.jpg" alt="View of Kelly's window, Hong Kong, 2022. Kodak Ektar H35, Fujicolor Industrial 100"></a>
+            <a href="#">Stayed up all night and saw this, ah home</a>
+            <a href="#"><img src="images/sxd1.JPG" alt="Sanxingdui Museum, Guanghan, Sichuan, China, September 2023. iPhone 13 Pro"></a>
+            <a href="#">Alien👽 head spotted in Sichuan</a>
+            <a href="#"><img src="images/penghu3.jpeg" alt="Penghu, Taiwan, 2023. iPhone 13 Pro"></a>
+            <a href="#">The food truck that saved me from heat stroke</a>
+            <a href="#"><img src="images/failedfilm.jpg" alt="Shilin Night Market, Taipei, 2023. Asahi Pentax Spotmatic SPII, Escura Showa ISO 400 Color 30exp Negative Film."></a>
+            <a href="#">Why does this film look so fail?🥹</a>
+            <a href="#"><img src="images/eva2.JPG" alt="EVA Air BR10 from TPE to YVR, October 14, 2023. iPhone 13 Pro"></a>
+            <a href="#">Turbulence trapped me in the bathroom 😱😱😱</a>
+            <a href="#"><img src="images/kagoshima.jpeg" alt="Ibusuki no Tamatebako, Kagoshima, January 2020. iPhone 7 Plus"></a>
+            <a href="#">~~Tamatebako train experience~~</a>
+            <a href="#"><img src="images/taoyuan_lib.jpeg" alt="Taoyuan Public Library, Taoyuan, Taiwan, 2023. iPhone 13 Pro"></a>
+            <a href="#">The library that deserves a design award</a>
+        </div>
+        <!-- Column 3 -->
+        <div class="column">
+            <a href="#"><img src="images/cherryblossoms.jpeg" alt="Butchart Gardens, Victoria, BC, 2015. iPod 5"></a>
+            <a href="#">iPod 5 photography works...</a>
+            <a href="#"><img src="images/penghu_thumbnail.JPG" alt="Penghu, Taiwan, 2023. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">Watch this with the love of your life or regret</a>
+            <a href="#"><img src="images/kellyinpenghu.JPG" alt="Penghu, Taiwan, 2023. idk the tour guide took this"></a>
+            <a href="#">LONG TIME NO DIVE!</a>
+            <a href="#"><img src="images/yangming.png" alt="Yangming Mountain, Taiwan, 2023. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">Hidden gem in Taipei! 🏞️</a>
+            <a href="#"><img src="images/kagoshima2.jpeg" alt="Cape Nagasakibana, Ibusuki, Kagoshima, Japan, January 2020. Caption translated: 'Kagoshima view was breathtaking'. iPhone 7 Plus"></a>
+            <a href="#">가고시마 풍경 숨이막혔다</a>
+            <a href="#"><img src="images/donsol.jpg" alt="Donsol, Philippines, 2012. HTC Desire S"></a>
+            <a href="#">Didn't get to see whalesharks but ––</a>
+            <a href="#"><img src="images/aberdeen.jpg" alt="Aberdeen, Hong Kong, 2022. Kodak Ektar H35, Kodak Vision3 500T"></a>
+            <a href="#">My father grew up in this fish village</a>
+            <a href="#"><img src="images/thepeak.JPG" alt="The Peak, Hong Kong, 2022. iPhone 13 Pro"></a>
+            <a href="#">The Peak</a>
+            <a href="#"><img src="images/shari_shari.JPG" alt="            SHARI SHARI Kakigori House, Hong Kong, 2023. iPhone 13 Pro"></a>
+            <a href="#">Challenge accepted: no dripping on the table!</a>
+            <a href="#"><img src="images/bird.JPG" alt="Bluejay in Central Park, New York, 2024. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">First bird shot on my camera!</a>
+            <a href="#"><img src="images/central_park_fall.png" alt="Central Park, New York, 2024. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">Fallen in love with fall?</a>
+            <a href="#"><img src="images/qijin.jpeg" alt="Qijin Beach, Kaohsiung, Taiwan, 2023. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">if this is not a UFO, then what this is?</a>
+            <a href="#"><img src="images/stuycoast.JPG" alt="Stuyvesant Coast Park, November 2024. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">NYC iPhone wallpaper</a>
+        </div>
+        <!-- Column 4 -->
+        <div class="column">
+            <a href="#"><img src="images/taipo.JPG" alt="Tai Po, Hong Kong, 2021. Caption translated: 'Hong Kong's streets are perfect for vintage style film shots'. Pentax Espio 120SW, Fujifilm X-TRA 400."></a>
+            <a href="#">香港真係好適合影啲復古feel菲林相...</a>
+            <a href="#"><img src="images/neonhk.jpg" alt="Mong Kok, Hong Kong, 2020. Superheadz Usagi Colorful, Fujifilm C200."></a>
+            <a href="#">Fading Hong Kong</a>
+            <a href="#"><img src="images/taipei101.jpg" alt="Taipei 101, Taiwan, 2023. iPhone 13 Pro, edited with VSCO."></a>
+            <a href="#">Taipei's most iconic landmark</a>
+            <a href="#"><img src="images/victoriahbr.jpg" alt="Victoria Harbour, Hong Kong, 2022. Kodak Ektar H35, Kodak Vision3 500T"></a>
+            <a href="#">Woke up to this view, I want to live here forever</a>
+            <a href="#"><img src="images/islands.jpg" alt="Ma Wan, Hong Kong, 2022. Kodak Ektar H35, Kodak Vision3 500T"></a>
+            <a href="#">Found this near HK airport</a>
+            <a href="#"><img src="images/messyhk.jpeg" alt="Inside an elevator, 68 Sai Yeung Choi St S, Mong Kok, Hong, 2021. iPhone 11"></a>
+            <a href="#">This is the place young people love to go(??)</a>
+            <a href="#"><img src="images/tainan.JPG" alt="Yuguang Island，Tainan, Taiwan, 2023. Sony A7C, Sony FE 28-60mm f/4-5.6."></a>
+            <a href="#">🤔 Is this an egg tart in the sky</a>
+            <a href="#"><img src="images/cat2.JPG" alt="URBAN Cafe, Kwun Tong, Hong Kong, 2023. iPhone 13 Pro"></a>
+            <a href="#">handsome car</a>
+            <a href="#"><img src="images/disneyhk.JPG" alt="HK Disneyland, 2021. Pentax Espio 120SW, Fujifilm X-TRA 400."></a>
+            <a href="#">In the Toy Story world🦖</a>
+            <a href="#"><img src="images/penang.jpeg" alt="Penang, Malaysia, 2018. iPhone 7 Plus."></a>
+            <a href="#">Penang street arts!</a>
+            <a href="#"><img src="images/eggtart.jpeg" alt="Hashtag B, Causeway Bay, Hong Kong. iPhone 15"></a>
+            <a href="#">This is def not the best eggtart in HK</a>
+            <a href="#"><img src="images/cat3.jpeg" alt="Rattan Cat Cafe, Taichung, Taiwan, August 2024. iPhone 15"></a>
+            <a href="#">🐱Healing cat cafe near Taichung HSR station🐱</a>
+        </div>
+    </div>
+    </main>
+<!-- <i class="fa-regular fa-heart"></i>
+<i class="fa-solid fa-heart"></i> 
+<i class="fa-solid fa-share-nodes"></i>-->
+    <footer>
+        <p><a href="https://kelly990918.github.io">Yi Yan (Kelly) Leung</a> ₍⑅ᐢ. ̬.ᐢ₎♡ | NYU SPS Fall 2024 –– PUBB1-GC 3360 Web Design | All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
