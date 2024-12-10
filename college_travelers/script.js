@@ -18,3 +18,43 @@ function on() {
 function off() {
   document.getElementById("id01").style.display = "none";
 }
+
+// Popup
+var modal = document.getElementById("popup-modal");
+var btn = document.getElementById("popup-btn");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+    document.getElementById("popup-modal").style.
+    display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// popup2
+var modal = document.getElementById("popup-modal2");
+var btn = document.getElementById("popup-btn2");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+    document.getElementById("popup-modal").style.
+    display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
