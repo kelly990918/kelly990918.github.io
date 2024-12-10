@@ -42,7 +42,7 @@ header {
 }
 
 header ul {
-    position: fixed;
+    position: absolute;
     right: 1em;
     top: 0.5em;
     line-height: 80px;
@@ -292,12 +292,13 @@ footer a {
 @media screen and (max-width: 767px) {
     .row {
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        flex-grow: 1;
     }
 
     .column {
         flex: 0 0 50%;
-        max-width: 50%;
+        width: 50%;
     }
 
     .column a {
@@ -343,11 +344,7 @@ footer a {
 
 @media screen and (max-width: 480px) {
     .column {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .column a {
-        font-size: 10px !important; 
+        flex: 0 0 50%;
+        width: 50%;
     }
 }
