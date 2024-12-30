@@ -360,18 +360,6 @@ footer p {
     height: auto;
 }
 
-.blog-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: left;
-}
-
-.blog-flex img, video {
-    max-height: 400px;
-    max-width: 50%;
-}
-
 /* Bottom nav */
 .navbar {
     line-height: 50px;
@@ -434,15 +422,22 @@ footer p {
 
     .navbar {display: block;}
 
-    .blog-flex {
-        flex-direction: column;
-        max-width: 100%;
-    }
-
     .index img {
         width: 200px;
         height: 100px;
     }
 
     footer {display: none;}
+
+    .profile {padding: 1em 1em 1em;}
+
+    .profile p {font-size: 15px;}
+
+    .profile h2 {font-size: 20px;}
+
+    .profile h3 {font-size: 17px;}
+
+    .paragraph {font-size: 15px;}
+
+    .blog {padding: 1em 1em 1em;}
 }
