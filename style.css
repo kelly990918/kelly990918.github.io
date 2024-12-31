@@ -443,4 +443,9 @@ footer p {
     .blog {padding: 1em 1em 1em;}
 
     .index {flex-direction: column;}
-}
+
+    .index img {width: 85vw; height: auto;}
+
+    .index a {font-size: 20px;}
+
+    .sub_index p {font-size: 15px;}
