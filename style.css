@@ -438,10 +438,6 @@ footer p {
 
     .profile h3 {font-size: 17px;}
 
-    .paragraph {font-size: 15px;}
-
-    .blog {padding: 1em 1em 1em;}
-
     .index {flex-direction: column;}
 
     .index img {width: 85vw; height: auto;}
@@ -460,4 +456,16 @@ footer p {
         height: auto;
         margin: 0 auto;
     }
+
+    .blog {padding: 1em 1em 1em;}
+
+    .title h2 {font-size: 25px;}
+    
+    .blog img {
+        max-width: 85vw;
+        height: auto;
+    }
+
+    .paragraph {font-size: 15px;}
+
 }
