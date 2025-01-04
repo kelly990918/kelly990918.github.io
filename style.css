@@ -423,11 +423,6 @@ footer p {
 
     .navbar {display: block;}
 
-    .index img {
-        width: 200px;
-        height: 100px;
-    }
-
     footer {display: none;}
 
     .profile {padding: 1em 1em 1em;}
@@ -440,7 +435,11 @@ footer p {
 
     .index {flex-direction: column;}
 
-    .index img {width: 85vw; height: auto;}
+    .index img {
+        width: 85vw; 
+        height: 30vh;
+        margin: 0 auto;
+    }
 
     .index a {font-size: 20px;}
 
@@ -460,7 +459,7 @@ footer p {
     .blog {padding: 1em 1em 1em;}
 
     .title h2 {font-size: 25px;}
-    
+
     .blog img {
         max-width: 85vw;
         height: auto;
