@@ -361,6 +361,34 @@ footer p {
     height: auto;
 }
 
+/* Photography */
+.row, .column img {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 5px 5px;
+}
+
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Bottom nav */
 .navbar {
     line-height: 50px;
@@ -467,4 +495,14 @@ footer p {
 
     .paragraph {font-size: 15px;}
 
+    .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        flex: 0 0 50%;
+        width: 50%;
+        max-width: 50%;
+    }
 }
