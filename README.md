@@ -1,5 +1,4 @@
-##### Hi this is Kelly!
-<br>
+### Hi this is Kelly!
 <p>I am learning some frontend programming and this my practise site~ (plus a mini personal homepage)</p>
 <p>Thanks for visiting ~(=^‥^)/</p>
 <p>This is the only public codespace(?) but I'm also slowly taking the Harvard CS50 online course</p>
