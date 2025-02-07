@@ -397,7 +397,7 @@ footer p {
 
 /* Bottom nav */
 .navbar {
-    line-height: 50px;
+    line-height: 70px;
     overflow: hidden;
     background-color: #295396;
     position: fixed;
@@ -464,6 +464,8 @@ footer p {
     .profile p {font-size: 15px;}
 
     .profile h2 {font-size: 20px;}
+    
+    .edu {font-size: 20px !important;}
 
     .profile h3 {font-size: 17px;}
 
