@@ -325,7 +325,8 @@ footer p {
     padding: 0 1.5em 1.5em 1.5em;    
 }
 
-/*blog content*/ .paragraph { 
+/*blog content*/ 
+.paragraph { 
     color: #0f0616; /*Black Purple*/
     font-family: "Noto Serif HK";
     font-size: 17px;
@@ -339,6 +340,14 @@ footer p {
 }
 
 .blog a:hover {text-decoration: underline;}
+
+.blog h3 {
+    color: #0f0616; /*Black Purple*/
+    font-family: "Noto Serif HK";
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
 
 /*blog image caption*/ .img_caption { 
     color: #0f0616;
