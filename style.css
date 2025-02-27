@@ -157,7 +157,7 @@ button a {
     color: #fff;
     text-align: center;
     height: 85vh;
-    background-image: url(images/index_bg.jpeg);
+    background-image: url(images/index_bg.webp);
     opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +177,7 @@ button a {
     color: #fff;
     text-align: center;
     height: 85vh;
-    background-image: url(images/who_bg.jpeg);
+    background-image: url(images/who_bg.webp);
     opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,7 +201,7 @@ button a {
     background-color: #295396;
     font-family: "Noto Serif HK";
     color: #fff;
-    background-image: url(images/big_dipper.jpeg);
+    background-image: url(images/big_dipper.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
